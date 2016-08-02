@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">US AltGr International External Keyboard Layout</string>
+    <string name="keyboard_layout_english_us_altgr_intl">English (US AltGr International)</string>
+    <string name="keyboard_layout_dragon_english_us_altgr_intl">English (US AltGr International; Pixel C)</string>
+    <string name="keyboard_layouts_label">US AltGr International External Keyboard Layout</string>
+</resources>

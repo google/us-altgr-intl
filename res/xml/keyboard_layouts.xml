@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard-layouts
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res-auto" >
+  <keyboard-layout
+    android:label="@string/keyboard_layout_english_us_altgr_intl"
+    android:name="keyboard_layout_english_us_altgr_intl"
+    android:keyboardLayout="@raw/keyboard_layout_english_us_altgr_intl" />
+  <keyboard-layout
+    android:label="@string/keyboard_layout_dragon_english_us_altgr_intl"
+    android:name="keyboard_layout_dragon_english_us_altgr_intl"
+    android:keyboardLayout="@raw/keyboard_layout_dragon_english_us_altgr_intl" />
+</keyboard-layouts>
