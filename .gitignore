@@ -1,5 +1,7 @@
-local.properties
-proguard-project.txt
+.keystore
+ant.properties
 bin/
 gen/
+local.properties
+proguard-project.txt
 tmp/
