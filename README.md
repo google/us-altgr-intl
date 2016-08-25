@@ -39,21 +39,21 @@ ant debug
 adb install bin/USAltGrIntl-debug.apk
 ```
 
-In case of a Pixel C, additionally run:
+In case of a Pixel C, additionally run one of:
 
 ```
-adb shell pm hide com.android.dragonkeyboard
+adb shell pm disable-user com.android.dragonkeyboard
 ```
 
-After that, to to Settings / Language & input / Physical keyboard / Set up
-keyboard layouts and select the keyboard layouts from this package. They will
-show up as layouts provided by
+After that, to to Settings / Language & input / Physical keyboard and select the
+keyboard layouts from this package. They will show up as layouts provided by
 "US AltGr International External Keyboard Layout".
 
-Pixel C users: to go back to using the layouts included with the device, run:
+Pixel C users: to go back to using the layouts included with the device, run one
+of:
 
 ```
-adb shell pm unhide com.android.dragonkeyboard
+adb shell pm enable com.android.dragonkeyboard
 ```
 
 ### Adding Your Own
