@@ -56,6 +56,20 @@ of:
 adb shell pm enable com.android.dragonkeyboard
 ```
 
+### Compiling & Installing on the device
+
+[Termux](https://play.google.com/store/apps/details?id=com.termux) users
+who are comfortable with installing from "unknown sources" can now compile
+and install _on_ the device (note that this is substantially less secure,
+at the very least make sure no other apps are running):
+
+```
+./compile-and-install-from-termux.sh
+```
+
+Unfortunately this procedure does not support the Pixel C; above `adb shell`
+command absolutely must be run from a computer connected via USB first.
+
 ### Adding Your Own
 
 To add a custom layout:
