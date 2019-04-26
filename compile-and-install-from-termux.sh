@@ -4,7 +4,7 @@
 set -ex
 
 mkdir -p bin gen obj
-apt install aapt apksigner ecj4.6
+apt install aapt apksigner dx ecj4.6
 
 aapt package \
 	-f -m \
