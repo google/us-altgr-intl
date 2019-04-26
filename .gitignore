@@ -2,6 +2,7 @@
 ant.properties
 bin/
 gen/
+obj/
 local.properties
 proguard-project.txt
 tmp/
