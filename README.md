@@ -67,6 +67,9 @@ at the very least make sure no other apps are running):
 ./compile-and-install-from-termux.sh
 ```
 
+In case this shows a "Not installed" error, this may indicate a need to remove
+the already installed version first from the system settings.
+
 Unfortunately this procedure does not support the Pixel C; above `adb shell`
 command absolutely must be run from a computer connected via USB first.
 
